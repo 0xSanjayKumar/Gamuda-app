@@ -3,7 +3,7 @@ import serial
 import time
 from PIL import Image
 
-ser = serial.Serial('/dev/ttyUSB0', 9600)
+ser = serial.Serial('COM8', 9600)
 
 time.sleep(2)  
 
